@@ -21,7 +21,12 @@ The project leverages the **Telco Customer Churn dataset**, applies preprocessin
 
 - **Language:** Python  
 - **Libraries:** pandas, numpy, scikit-learn, seaborn, matplotlib, joblib  
-- **Model:** Random Forest Classifier  
+- **Model:** Random Forest Classifier
+- **Frontend / UI**: Streamlit  
+- **Backend / ML Model**: Python, scikit-learn  
+- **Data Processing**: pandas, NumPy  
+- **Visualization**: matplotlib, seaborn, Streamlit charts  
+- **Model Serialization**: pickle 
 - **Environment:** Jupyter Notebook & Python scripts  
 
 ---
@@ -31,11 +36,11 @@ The project leverages the **Telco Customer Churn dataset**, applies preprocessin
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/yourusername/customer-churn-prediction.git
-    cd customer-churn-prediction
+    git clone https://github.com/adikarthikeya2003/Customer_Churn_Prediction_project.git
+    cd Customer_Churn_Prediction_project
     ```
 
-2. **Create and activate virtual environment**
+2. **Create and activate a virtual environment**
 
     ```bash
     python3 -m venv venv
@@ -53,17 +58,11 @@ The project leverages the **Telco Customer Churn dataset**, applies preprocessin
 
 ## Usage
 
-- **Run Jupyter Notebook** for analysis and training:
+Run the Streamlit app:
 
-    ```bash
-    jupyter notebook notebooks/Customer\ Churn\ Prediction.ipynb
-    ```
-
-- **Run Python script** for predictions:
-
-    ```bash
-    python src/Customer_Churn_Prediction.py
-    ```
+```bash
+streamlit run Customer_Churn_Prediction.py
+```
 
 - **Dataset:**  
   Located in `data/WA_Fn-UseC_-Telco-Customer-Churn.csv`
