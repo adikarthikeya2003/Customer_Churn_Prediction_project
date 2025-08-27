@@ -65,7 +65,7 @@ streamlit run Customer_Churn_Prediction.py
 ```
 
 - **Dataset:**  
-  Located in `data/WA_Fn-UseC_-Telco-Customer-Churn.csv`
+  Located in `dataset/Telco-Customer-Churn.csv`
 
 - **Outputs:**  
   - Trained model → `models/rf_model.pkl`  
