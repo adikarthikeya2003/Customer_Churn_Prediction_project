@@ -63,6 +63,7 @@ Run the Streamlit app:
 ```bash
 streamlit run Customer_Churn_Prediction.py
 ```
+You will redirected to this http://localhost:8501 website
 
 - **Dataset:**  
   Located in `dataset/Telco-Customer-Churn.csv`
